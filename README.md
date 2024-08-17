@@ -1,6 +1,8 @@
 # WP Corso Cookie Consent Plugin
 
-A WordPress plugin designed to manage cookie consent, enabling Google Analytics and Google Tag Manager only after the user has accepted cookies. This plugin was originally developed for [Corso Zundert](https://corsozundert.nl).
+A WordPress plugin designed to manage cookie consent, enabling Google Analytics and Google Tag Manager only after the user has accepted cookies. This plugin was originally developed for the [Corso Zundert](https://corsozundert.nl) website.
+
+The plugin relies on Javascript cookie setting & getting to support static or cached WordPress setups.
 
 ## Key Features
 
