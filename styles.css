@@ -1,0 +1,28 @@
+.corso-cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--corso-cookie-consent-background-color);
+    color: var(--corso-cookie-consent-text-color);
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: none;
+}
+
+.corso-cookie-consent button {
+    background-color: var(--corso-cookie-consent-button-color);
+    border: none;
+    color: var(--corso-cookie-consent-text-color);
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.corso-cookie-consent button:hover {
+    background-color: #c0392b;
+}
